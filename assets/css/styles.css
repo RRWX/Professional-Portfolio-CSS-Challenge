@@ -234,8 +234,8 @@ section {
 }
 
 
-/* Calculator Image Styling */
-.calculator {
+/* Chess Game Image Styling */
+.chess-player {
     background-image: url(../images/Screenshot-2023-08-29-024943.png);
     background-size: cover;
     width: 47.5%;
@@ -246,8 +246,8 @@ section {
     position: relative;
 }
 
-/* Calculator Hover Styling */
-.calculator:hover {
+/* Chess Game Hover Styling */
+.chess-player:hover {
     opacity: 75%;
 }
 
