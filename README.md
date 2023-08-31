@@ -6,7 +6,7 @@
 
 **Description**: My website development portfolio.
 ## Deployed Page
-![Deployed Page Screenshot]()
+![Deployed Page giphy](https://raw.githubusercontent.com/RRWX/Professional-Portfolio-CSS-Challenge/main/assets/images/ezgif.com-crop.gif)
 
-[Deployed GitPage](LinkTO)
+[Deployed GitPage](https://rrwx.github.io/Professional-Portfolio-CSS-Challenge/)
 
