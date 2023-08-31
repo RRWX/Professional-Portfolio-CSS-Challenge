@@ -8,3 +8,11 @@
 
 [Deployed GitPage](https://rrwx.github.io/Professional-Portfolio-CSS-Challenge/)
 
+## Contributions
+**Authors and Resources**: 
+### W3Schools
+[W3Schools HTML & CSS Resources](https://www.w3schools.com/)
+### CSS Tricks
+[Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+### 
+**Code by** Daniel Wooalrd 
