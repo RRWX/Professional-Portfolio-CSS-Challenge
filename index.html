@@ -1,142 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/css/styles.css">
-    <title>Daniel's Portfolio</title>
-  </head>
-
-  <body>
-    <!-- Header Section -->
-    <header>
-      <h1>
-        <a href="/">Daniel's Portfolio</a>
-      </h1>
-      <!-- Start of Navigation -->
-      <nav>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav class="header">
         <ul>
-          <li>
-            <a href="#about-me">About Me</a>
-          </li>
-          <li>
-            <a href="#work">Work</a>
-          </li>
-          <li>
-            <a href="#contact-me">Contact Me</a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/daniel-woolard-67276a281/">Resume</a>
-          </li>
+            <li><a >Projects</a></li>
+            <li><a href="https://www.linkedin.com/in/daniel-woolard-67276a281/">Link-in</a></li>
+            <li><a>About</a></li>
         </ul>
-      </nav>
-    </header>
-    <!-- End of Navigation Section -->
-    <!-- End of Header Section -->
+    </nav>
 
-    <!-- Start of Hero Section -->
-    <section class="hero">
-        <h2>Full-Stack Website Development Student</h2>
-    </section>
-    <!-- End of Hero Section -->
-
-    <!-- Start of "About Me" Section -->
-    <section id="about-me" class="section">
-        <!-- Section Title -->
-        <div class="section-title">
-            <h2>
-            About Me
-            </h2>
+    <article class="introBox">
+        <img src="./assets/IMG_1114.jpg" class="profilePic" alt="A goofy dog wearing glasses"/>
+       <div class="backGroundForText"> <p class="parText">Hello! I'm Daniel, a passionate web developer with a love for crafting immersive digital experiences. With 2 weeks :] of hands-on experience in the field, I've had the privilege of delving into the dynamic world of web development. When I'm not immersed in lines of code, you might find me making music. I believe that continuous learning is key to staying at the forefront of this ever-evolving field, and I'm excited to see where my journey as a web developer takes me next. Feel free to reach out if you'd like to discuss web development, share ideas, or explore potential collaborations. Let's build the web together!</p></div>
+    </article>
+        <div class="contentPro">
+            <h1>Projects</h1>
+            <h2>Code Quiz</h2>
+            <section><a href="https://rrwx.github.io/Web-APIs-Challenge-Code-Quiz/"><img src="./assets/Screenshot2023-09-18041822.png" class="projectImg"/></a><p> quiz will test your programming knowledge</p></section>
+            <h2>Comming soon</h2>
+            <section><img src="./assets/hrioghroigkmvopiverv.jpg"/><p>Description</p></section>
+            <h2>Comming soon pt2</h2>
+            <section><img src="./assets/hrioghroigkmvopiverv.jpg"/><p>Description</p></section>
         </div>
-
-        <!-- Section Content -->
-        <div class="flex-row">
-            <img src="./assets/images/IMG_1114.jpg" class="photo" alt="A goofy dog wearing glasses"/>
-            <p>
-              Hello! I'm Daniel, a passionate web developer with a love for crafting immersive digital experiences. With 2 weeks :] of hands-on experience in the field, I've had the privilege of delving into the dynamic world of web development. When I'm not immersed in lines of code, you might find me making music. I believe that continuous learning is key to staying at the forefront of this ever-evolving field, and I'm excited to see where my journey as a web developer takes me next.
-              Feel free to reach out if you'd like to discuss web development, share ideas, or explore potential collaborations. Let's build the web together!               </p>
-        </div>
-    </section>
-    <!-- End of "About Me" Section -->
-
-    <!-- Start of "Work" Section -->
-    <section id="work" class="section">
-        <!-- Section Title -->
-        <div class="section-title2">
-          <h2>
-            Work
-          </h2>
-        </div>
-
-        <!-- Section Content -->
-        <div class="flex-row2">
-            <!-- Main Project Content -->
-            <div class="main-project">
-                <div class="surf-report">
-                    <p><a href="#">Surf Report</a><br/><font size="-0.5">MERN Stack</font></p>
-                </div>
-            </div>
-            
-            <!-- Other Projects -->
-            <div class="side-projects">
-                <!-- LED Wall Project -->
-                
-                <div class="led-wall ">
-                  <p><a href="#">Led Wall</a><br/><font size="-0.5">Node/loT</font></p>
-              </div>
-               <!-- Chess Game Project -->               
-              <div class="chess-player">
-                  <p><a href="https://rrwx.github.io/Chess-Player/">Chess Game</a><br/><font size="-0.5">HTML/CSS/JS</font></p>
-                </div>
-
-                <!-- Pastel Puzzles -->
-                <div class="pastel-puzzles">
-                    <p>Pastel Puzzles<br/><font size="-0.5">MERN Stack</font></p>
-                </div>
-
-                <!-- Run Buddy -->
-                <div class="run-buddy">
-                    <p>Run Buddy<br/><font size="-0.5">HTML/CSS</font></p>
-                </div>
-            </div>
-        </div>
-      </section>
-    <!-- End of "Work" Section -->
-
-    <!-- Start of "Contact Me" Section -->
-    <section id="contact-me" class="section">
-        <!-- Section Title -->
-        <div class="section-title">
-          <h2>
-            Contact Me
-          </h2>
-        </div>
-
-        <!-- Section Content -->
-        <div class="flex-row">
-            <div class="phone">
-                <a href="tel:123-456-789">Call Me</a>
-            </div>
-
-            <div class="email">
-                <a href="mailto:testemail@gmail.com">Email Me</a>
-            </div>
-
-            <div class="linkedin">
-                <a href="https://www.linkedin.com/in/daniel-woolard-67276a281/">LinkedIn</a>
-            </div>
-
-            <div class="github">
-                <a href="https://github.com/RRWX">Github</a>
-            </div>
-      </div>
-      </section>
-    <!-- End of "Contact Me" Section -->
-
-    <!-- footer -->
-    <footer>
-      <h2>Made by Daniel Wooalrd</h2>
-    </footer>
-    <!-- footer end -->
-  </body>
+</body>
 </html>
